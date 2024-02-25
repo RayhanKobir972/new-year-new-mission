@@ -21,3 +21,27 @@ header{
     font-size: 72px;
     font-weight: 900px;
 }
+
+/* Bonus section */
+#bonus_text{
+    margin-top: 80px;
+    text-align: center;
+}
+#off_text{
+    font-size: 65px;
+    font-weight: 700px;
+    color: #F00000;
+}
+#holiday_text{
+    color: #FF0000;
+    font-weight: 500px;
+}
+#category_text{
+    font-size: 48px;
+    font-weight: 700px;
+}
+#image_container{
+    height: 500px;
+    width: 800px;
+    margin-left: 300px;
+}
