@@ -1,0 +1,23 @@
+header{
+    background-image: url('/images/Banner\ Image.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin-left: 90px;
+    
+}
+
+.banner{
+    padding-top: 95px;
+    text-align: center;
+    color: white;
+}
+#hny{
+    font-size: 32px;
+    font-weight: 400px;
+}
+#party{
+    font-size: 72px;
+    font-weight: 900px;
+}
