@@ -12,6 +12,14 @@ header{
     padding-top: 95px;
     text-align: center;
     color: white;
+
+    position: absolute;
+    top: 8px;
+    left: 100px;
+    width: 1320px;
+    height: 505px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 #hny{
     font-size: 32px;
@@ -45,3 +53,49 @@ header{
     width: 800px;
     margin-left: 300px;
 }
+
+/* ----Welcome party section----  */
+#welcome_party{
+    background-image: url('/images/Vectorrr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin-left: 90px;
+
+    display: flex;
+    flex-direction: row;
+    
+    gap: 50px;
+
+    color: #FFF;
+    font-family: Merriweather;
+}
+
+#welcome_description{
+    margin: 125px;
+}
+#welcome_image{
+    margin: 70px 60px;
+}
+#party_para{
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+}
+#join_btn{
+    background: transparent;
+    border: transparent;
+    color: white;
+    font-weight: 500;
+}
+
+/* .bg_overlay{
+    position: absolute;
+    top: -100%;
+    left: 100px;
+    width: 1320px;
+    height: 505px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+} */
