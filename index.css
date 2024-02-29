@@ -65,6 +65,7 @@ header{
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
+    margin-top: 50px;
     margin-left: 90px;
 
     display: flex;
@@ -74,10 +75,24 @@ header{
 
     color: #FFF;
     font-family: Merriweather;
+    position: relative;
+
 }
+
+/* #overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 650px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+} */
 
 #welcome_description{
     margin: 125px;
+    
+
 }
 #welcome_image{
     margin: 70px 60px;
@@ -195,6 +210,40 @@ header{
     font-style: normal;
 }
 
+#img_container{
+    position: relative;
+    margin-top: 200px;
+}
+
+#base_image{
+    height: 220px;
+    width: 1320px;
+    margin-left: 90px;
+    margin-top: 330px;
+}
+
+#box_image{
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+
+#girl_image{
+    height: 430px;
+    width: 430px;
+    position: absolute;
+    right: 93px;
+    top: -100px;
+}
+
+#discount_image{
+    position: absolute;
+    right: 360px;
+    bottom: 285px;
+}
+
 /* Best gifts section */
 #gift_container{
     width: 1320px;
@@ -266,6 +315,46 @@ header{
     border: transparent;
     color: #FFF;
     border-radius: 0px 50px 50px 0px;
+}
+
+#footer_container{
+    background-color: black;
+    color: #FFF;
+}
+
+#address{
+    padding-left: 140px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 700px;
+}
+#unsubscribe_image{
+    margin-left: 550px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.image_group{
+    width: 64px;
+    height: 64px;
+}
+
+#unsubscribe{
+    padding-left: 140px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 800px;
+}
+
+.hr{
+    width: 1320px;
 }
 /* .bg_overlay{
     position: absolute;
