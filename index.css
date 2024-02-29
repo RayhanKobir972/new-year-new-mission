@@ -219,6 +219,54 @@ header{
     height: 450px;
     width: 425px;
 }
+
+/* Subscriber Section */
+#Subscriber_container{
+    width: 1320px;
+    height: 500px;
+    padding-top: 80px;
+    margin-left: 90px;
+    background-color: rgba(255, 0, 0, 0.05);
+    align-items: center;
+    text-align: center;
+}
+
+#Subscriber_image{
+    width: 100px;
+    height: 100px;
+}
+
+#Newsletter{
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+#newsletter_paragraph{
+   padding-left: 200px;
+    width: 890px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+#Subscriber_field{
+    width: 400px;
+    height: 68px;
+    border-radius: 50px 0px 0px 50px;
+    background-color: #FFF;
+    padding-left: 25px;
+    border: transparent;
+}
+
+#Subscriber_button{
+    width: 210px;
+    height: 72px;
+    background-color: #F00000;
+    border: transparent;
+    color: #FFF;
+    border-radius: 0px 50px 50px 0px;
+}
 /* .bg_overlay{
     position: absolute;
     top: -100%;
